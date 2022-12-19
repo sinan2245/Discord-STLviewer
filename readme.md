@@ -25,4 +25,4 @@ Pour supprimer tous les rendus d'aperçus stockés, utilisez la commande `/flush
 
 - Code source du projet: [INSERT GITHUB REPOSITORY LINK HERE]
 ## Images : 
-https://cdn.discordapp.com/attachments/878253378575151144/1054524525406081145/image.png
+![Image](https://cdn.discordapp.com/attachments/878253378575151144/1054524525406081145/image.png)

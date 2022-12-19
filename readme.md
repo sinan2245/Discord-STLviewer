@@ -4,10 +4,7 @@ Ce **bot Discord** vous permet de visualiser des fichiers STL directement dans v
 
 ## 🔧 Comment utiliser le bot
 
-1. Invitez le bot sur votre serveur Discord en utilisant ce lien: [INSERT INVITE LINK HERE]
-2. Autorisez le bot à envoyer des messages et à lire les fichiers dans les salons où vous souhaitez utiliser la fonctionnalité de visualisation STL.
-3. Téléversez un fichier STL dans un salon où le bot a la permission de lire les fichiers et d'envoyer des messages. Assurez-vous que le fichier fait moins de 10 Mo.
-4. Le bot enverra un aperçu du modèle STL dans le salon.
+Uploader simplement un fichier STL et le bot vous donnera un apercu du fichier.
 
 ## 🚫 Commande de suppression des données
 

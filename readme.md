@@ -21,8 +21,5 @@ Pour supprimer tous les rendus d'aperçus stockés, utilisez la commande `/flush
 - Si vous rencontrez des problèmes ou avez des suggestions pour améliorer le bot, n'hésitez pas à ouvrir une issue sur le dépôt GitHub du projet.
 - Si le fichier est volumineux, cela peut prendre un peu de temps selon la machine qui l'héberge.
 
-## 🔗 Informations utiles
-
-- Code source du projet: [INSERT GITHUB REPOSITORY LINK HERE]
 ## Images : 
 ![Image](https://cdn.discordapp.com/attachments/878253378575151144/1054524525406081145/image.png)

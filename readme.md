@@ -1,29 +1,20 @@
-# STL Visualisor for LFP
+# 🚀 Visualiseur de STL pour Discord
 
+Ce bot Discord vous permet de visualiser des fichiers STL directement dans votre serveur. Il suffit de téléverser un fichier STL dans un salon et le bot enverra un aperçu du modèle.
 
-Documentation d'installation du bot
+## 🔧 Comment utiliser le bot
 
+1. Invitez le bot sur votre serveur Discord en utilisant ce lien: [INSERT INVITE LINK HERE]
+2. Autorisez le bot à envoyer des messages et à lire les fichiers dans les salons où vous souhaitez utiliser la fonctionnalité de visualisation STL.
+3. Téléversez un fichier STL dans un salon où le bot a la permission de lire les fichiers et d'envoyer des messages. Assurez-vous que le fichier fait moins de 10 Mo.
+4. Le bot enverra un aperçu du modèle STL dans le salon.
 
+## ⚠️ Remarques
 
+- Le bot ne prend en charge que les fichiers STL de moins de 10 Mo pour des raisons de performance.
+- Si vous rencontrez des problèmes ou avez des suggestions pour améliorer le bot, n'hésitez pas à ouvrir une issue sur le dépôt GitHub du projet.
 
-## Examples :
-**`Debian 10/11`**
-- `apt update && apt upgrade`
-- `curl -s https://deb.nodesource.com/setup_16.x | sudo bash`
-- Modifier les informations du code à l'aide d'un éditeur de texte (Token du bot + informations dans handlers/handleCommands.js)
-- Utiliser **Filezilla** pour transférer le code du bot en SFTP
-- `apt install screen`
-- `screen -S lfp`
-- Se rendre dans le dossier du bot (`ls` pour **lister le dossiers** + cd Nom du Dossier pour **aller** dans le dossier du bot)
-- `npm i`
-- `node src/bot.js` **Attention** de bien activer les intents sur le portail développeur
+## 🔗 Liens utiles
 
-__Commandes de base du paquet screen__
-*Ce paquet permet de faire tourner du code sans avoir besoin d'avoir une session connecté, sinon dès que vous vous déconnecter en SSH, le code ne tournera plus*
-- `screen -S lfp` - *Crée un screen du nom de lfp*
-- CTRL + A + D - Quitte le screen sur lequel vous êtes (en le laissant tourner)
-- `screen -R lfp` - Vous remet sur le screen du bot, ce qui vous permettra de voir ce qu'il y a dans la console où d'arrêter le bot en faisant CTRL + C 
-- `pkill screen` - Supprime tout les screens en cours (donc arrête le bot)
-
-
-
+- Code source du projet: [INSERT GITHUB REPOSITORY LINK HERE]
+- Invitation pour ajouter le bot à votre serveur Discord: [INSERT INVITE LINK HERE]

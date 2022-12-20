@@ -20,3 +20,5 @@ Pour supprimer tous les rendus d'aperçus stockés, utilisez la commande `/flush
 
 ## Images : 
 ![Image](https://cdn.discordapp.com/attachments/878253378575151144/1054524525406081145/image.png)
+
+> *Si vous avez le moindre soucis, n'hésitez pas à m'en faire part en ouvrant une issue ou en me contactant sur Discord `Sinan2245#8683`*

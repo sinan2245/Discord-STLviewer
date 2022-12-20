@@ -17,6 +17,7 @@ Pour supprimer tous les rendus d'aperçus stockés, utilisez la commande `/flush
 - Le bot ne prend en charge que les fichiers STL de moins de 10 Mo pour des raisons de performance.
 - Si vous rencontrez des problèmes ou avez des suggestions pour améliorer le bot, n'hésitez pas à ouvrir une issue sur le dépôt GitHub du projet.
 - Si le fichier est volumineux, cela peut prendre un peu de temps selon la machine qui l'héberge.
+- Le bot n'est pas fait pour du **multi-serveur**, utilisez le uniquement sur votre propre serveur sinon tout le monde pourra supprimer les rendus.
 
 ## Images : 
 ![Image](https://cdn.discordapp.com/attachments/878253378575151144/1054524525406081145/image.png)

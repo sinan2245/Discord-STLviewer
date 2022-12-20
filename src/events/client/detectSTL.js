@@ -15,9 +15,6 @@ const {
 module.exports = {
     name: "messageCreate",
     async execute(message, client) {
-        let st1;
-        let st2;
-        let st3;
         if (message.author.bot) return;
         if (message.channel.type === "dm") return;
         if (message.attachments.size > 0) {

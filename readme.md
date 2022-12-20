@@ -19,6 +19,23 @@ Pour supprimer tous les rendus d'aperçus stockés, utilisez la commande `/flush
 - Si le fichier est volumineux, cela peut prendre un peu de temps selon la machine qui l'héberge.
 - Le bot n'est pas fait pour du **multi-serveur**, utilisez le uniquement sur votre propre serveur sinon tout le monde pourra supprimer les rendus.
 
+# 💻 Installation 
+
+Pour utiliser ce bot Discord, vous avez besoin d'installer [Node.js](https://nodejs.org/) et [npm](https://www.npmjs.com/) (qui est inclus avec Node.js).
+
+1. Téléchargez et installez Node.js et npm sur votre ordinateur.
+2. Créez un bot en suivant les instructions [ici](https://discordjs.guide/preparations/setting-up-a-bot-application.html). 🤖
+3. Clonez ce dépôt Git sur votre ordinateur : `git clone https://github.com/[nom d'utilisateur]/visualiseur-stl-discord.git`
+4. Accédez au répertoire du projet.
+5. Installez les dépendances du projet en utilisant la commande `npm install`
+6. Créez un fichier `.env` à la racine du projet et ajoutez votre jeton de bot comme ceci : `token=votre token de bot`
+7. Lancez le bot en utilisant la commande `node index.js` 🚀
+
+Le bot devrait maintenant être en ligne sur votre serveur Discord. Vous pouvez maintenant téléverser des fichiers STL pour obtenir un aperçu. 📈
+
+> **Note**: Assurez-vous de ne pas partager votre jeton de bot avec qui que ce soit, car il permet de contrôler votre bot Discord. ⚠️
+
+
 ## Images : 
 ![Image](https://cdn.discordapp.com/attachments/878253378575151144/1054524525406081145/image.png)
 

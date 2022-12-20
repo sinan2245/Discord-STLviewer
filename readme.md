@@ -22,7 +22,6 @@ Pour supprimer tous les rendus d'aperçus stockés, utilisez la commande `/flush
 ## 💻 Installation 
 
 Pour utiliser ce bot Discord, vous avez besoin d'installer [Node.js](https://nodejs.org/), [Python](https://www.python.org/downloads/) et [node-gyp](https://github.com/nodejs/node-gyp#installation).
-
 1. Téléchargez et installez Node.js et npm sur votre ordinateur.
 2. Créez un bot en suivant les instructions [ici](https://discordjs.guide/preparations/setting-up-a-bot-application.html). 🤖
 3. Clonez ce dépôt Git sur votre ordinateur : `git clone https://github.com/[nom d'utilisateur]/visualiseur-stl-discord.git`

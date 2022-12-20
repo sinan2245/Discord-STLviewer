@@ -19,7 +19,7 @@ Pour supprimer tous les rendus d'aperçus stockés, utilisez la commande `/flush
 - Si le fichier est volumineux, cela peut prendre un peu de temps selon la machine qui l'héberge.
 - Le bot n'est pas fait pour du **multi-serveur**, utilisez le uniquement sur votre propre serveur sinon tout le monde pourra supprimer les rendus.
 
-# 💻 Installation 
+## 💻 Installation 
 
 Pour utiliser ce bot Discord, vous avez besoin d'installer [Node.js](https://nodejs.org/) et [npm](https://www.npmjs.com/) (qui est inclus avec Node.js).
 

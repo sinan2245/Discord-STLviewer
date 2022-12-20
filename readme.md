@@ -28,7 +28,7 @@ Pour utiliser ce bot Discord, vous avez besoin d'installer [Node.js](https://nod
 3. Clonez ce dépôt Git sur votre ordinateur : `git clone https://github.com/[nom d'utilisateur]/visualiseur-stl-discord.git`
 4. Accédez au répertoire du projet.
 5. Installez les dépendances du projet en utilisant la commande `npm install`
-6. Créez un fichier `.env` à la racine du projet et ajoutez votre jeton de bot comme ceci : `token=votre token de bot`
+6. Créez un fichier `.env` à la racine du projet et ajoutez votre token comme ceci : `token=votre token de bot`
 7. Lancez le bot en utilisant la commande `node index.js` 🚀
 
 Le bot devrait maintenant être en ligne sur votre serveur Discord. Vous pouvez maintenant téléverser des fichiers STL pour obtenir un aperçu. 📈

@@ -33,7 +33,7 @@ Pour utiliser ce bot Discord, vous avez besoin d'installer [Node.js](https://nod
 
 Le bot devrait maintenant être en ligne sur votre serveur Discord. Vous pouvez maintenant téléverser des fichiers STL pour obtenir un aperçu. 📈
 
-> **Note**: Assurez-vous de ne pas partager votre jeton de bot avec qui que ce soit, car il permet de contrôler votre bot Discord. ⚠️
+> **Note**: Assurez-vous de ne pas partager votre token avec qui que ce soit, car il permet de contrôler votre bot Discord. ⚠️
 
 
 ## Images : 

@@ -123,21 +123,28 @@ module.exports = {
                                     })
                                     .setColor(0xc573be)
                                     .setImage(`attachment://${message.id}.jpg`);
-                                setInterval(() => {
-                                    if (fs.existsSync(`./data/${message.id}.jpg`) && fs.existsSync(`./data/${message.id}2.jpg`) && fs.existsSync(`./data/${message.id}3.jpg`)) {
-                                        msg.edit({
-                                            content: null,
-                                            files: [`./data/${message.id}.jpg`],
-                                            components: [row],
-                                            embeds: [exampleEmbed]
-                                        }).then(() => {
-                                            fs.unlinkSync(`./${message.id}.stl`)
-                                            fs.unlinkSync(`./data/${message.id}.jpg`)
-
-                                        })
-
+                                const interval = setInterval(() => {
+                                    if (
+                                        fs.existsSync(`./data/${message.id}.jpg`) &&
+                                        fs.existsSync(`./data/${message.id}2.jpg`) &&
+                                        fs.existsSync(`./data/${message.id}3.jpg`)
+                                    ) {
+                                        clearInterval(interval);
+                                        msg
+                                            .edit({
+                                                content: null,
+                                                files: [`./data/${message.id}.jpg`],
+                                                components: [row],
+                                                embeds: [exampleEmbed],
+                                            })
+                                            .then(() => {
+                                                fs.unlinkSync(`./${message.id}.stl`);
+                                                fs.unlinkSync(`./data/${message.id}.jpg`);
+                                                fs.unlinkSync(`./data/${message.id}2.jpg`);
+                                                fs.unlinkSync(`./data/${message.id}3.jpg`);
+                                            });
                                     }
-                                }, 2000)
+                                }, 2000);
                             })
 
                         })

@@ -3,7 +3,7 @@ const {
 } = require("discord.js");
 var StlThumbnailer = require('node-stl-to-thumbnail');
 var fs = require('fs');
-const request = require('request');
+const axios = require('axios');
 const {
     ActionRowBuilder,
     ButtonBuilder,
@@ -21,7 +21,8 @@ module.exports = {
             if (message.attachments.first().name.endsWith(".stl") || message.attachments.first().name.endsWith(".STL")) {
                 if (message.attachments.first().size > 10.5e+6) return message.react("❌")
                 const firstmsg = await message.channel.send("Votre modèle à été placé dans la file d'attente, il sera traité dès que les autres fichiers sont traités.");
-                request(message.attachments.first().url)
+                const response = await axios.get(message.attachments.first().url, { responseType: 'stream' });
+                response.data
                     .pipe(fs.createWriteStream(`./${message.id}.stl`)
                         .on('finish', () => {
                             //delete firstmsg;
